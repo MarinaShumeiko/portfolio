@@ -44,7 +44,7 @@ input::placeholder {color: #ccc;}
 .planet-small {top: 900px; right: 100px; z-index:10;}
 .planet-big {top: 172px; right: 20px; z-index:1;}
 .stone-small-one {top: 90px; right: 350px; z-index:2;}
-.stone-small-two {top: 870px; right: 870px; z-index:3;}
+.stone-small-two {top: 770px; right: 870px; z-index:3;}
 .stone-small-tree {top: 600px; right: 250px; z-index:1;}
 .stone-big {top: 110px; right: 1000px; z-index:1;}
 .publishers {height: 300px; background: url(images/pub.png) no-repeat 50% 50%;}
