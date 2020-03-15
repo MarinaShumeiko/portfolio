@@ -24,8 +24,8 @@ body {
 .header-actions button {display: flex;justify-content: flex-end;font-size: 16px;;font-weight: normal;color: #fff;padding: 26px 0;}
 .header-actions .signup {background-color: #4650F0; padding: 26px 60px; margin-left: 40px; font-weight: bold;}
 .header-actions .signup:hover {background-color: #4048C8;cursor: pointer;}
-
-.header-hero {}
+.hero-images {flex: 1;position: relative;}
+.header-hero {display: flex;justify-content: space-between;}
 .hero-text {padding-left: 100px; position: relative; z-index: 10;width:674px; color:#fff;font-weight: bold; background: url(images/line.png) no-repeat 0 0;}
 .hero-title {position: relative; z-index:10;padding:0 0  80px 0; margin-top: 80px;line-height: 1; font-size: 100px;}
 .hero-title span {color: #14F0AF;}
@@ -40,7 +40,7 @@ input::placeholder {color: #ccc;}
 .signup-form .btn:hover {background-color: #4048C8; cursor: pointer;}
 
 .hero-images img {position: absolute;}
-.station { top: 172px; right: 20px; z-index:1;}
+.station {left: inherit;position: inherit!important;float: right; z-index:1;}
 .planet-small {top: 900px; right: 100px; z-index:10;}
 .planet-big {top: 172px; right: 20px; z-index:1;}
 .stone-small-one {top: 90px; right: 350px; z-index:2;}
