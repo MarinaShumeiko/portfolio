@@ -6,6 +6,7 @@ body {
     line-height: 1.5;
     font-weight: 400;
     background-color: #1A1A1A;
+    min-width: 1920px;
 }
 .header {font-family: 'din';font-weight: bold;font-size: 100px; background: url(images/header.png) no-repeat 100% 0; padding-bottom: 135px;}
 .header-top {padding: 30px 0 0 100px;display: flex;align-items: center;align-content: center;}
