@@ -1,0 +1,32 @@
+
+/* Fonts */ 
+@font-face {
+    font-family: 'din';
+    src: url(font/DINOT-Light.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'din';
+    src: url(font/DINOT-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'din';
+    src: url(font/DINOT.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'din';
+    src: url(font/DINOT-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'din';
+    src: url(font/DINOT-Black.ttf);
+    font-style: normal;
+    font-weight: 700;
+}

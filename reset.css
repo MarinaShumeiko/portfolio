@@ -50,8 +50,11 @@ menu, ul {
 	font-size: initial;
 }
 button {
-	background: inherit;border: inherit;
+	background: inherit;
+	border: inherit;
+	font-size: 14px;
 }
+a:hover {text-decoration: none;}
 
 /* Fonts */ 
 @font-face {
