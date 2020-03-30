@@ -48,7 +48,7 @@
     }
     .ga-mobile-menu {
         display: block;
-        padding: 60px 0 160px 0;
+        overflow: hidden;
     }
     .ga-mobile-menu .logo {
         margin-left: 40px;
@@ -56,7 +56,36 @@
     .ga-header--desktop {display: none;}
 
     /* HERO */
+    .ga-hero { padding-top: 160px;}
     .ga-hero .hero-action {
         flex-wrap: wrap;
+    }
+    /* INBOX BANNER */
+    .ga-inbox {
+        flex-wrap: wrap;
+    }
+    .ga-inbox-form {
+        margin-top: 24px;
+    }
+     /* FOOTER */
+     .ga-footer_top {
+        flex-wrap: wrap;
+     }
+     .ga-footer_list:first-child {
+         width: 100%;
+         border-bottom: 1px solid var(--block-bg-dark);
+         padding-bottom: 12px;
+         margin-bottom: 24px;
+         margin-right: 0;
+     }
+     .ga-footer_bottom {
+         background-color: var(--main-bg-color);
+     }
+}
+
+@media screen and (max-width: 600px) {
+    /* FOOTER */
+    .ga-footer_list {
+        width: 200px;
     }
 }
