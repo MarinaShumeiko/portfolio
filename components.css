@@ -137,24 +137,29 @@ display: none;
 .ga-mobile-menu #overlay {
 	visibility: hidden;
 	position: fixed;
+	top: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     background: var(--main-bg-color);
     z-index: 2;
 	padding: 0 2rem;
+	padding: 60px 40px;
 	box-sizing: border-box;
 }
 .ga-mobile-menu #overlay.active {
     visibility: visible;
 }
+.ga-mobile-menu #overlay .logo {
+	margin: 0;
+	z-index: 2;
+}
 .ga-mobile-menu #overlay ul {
       display: flex;
       flex-direction: column;
       text-align: center;
-      padding: 4rem 0;
 	  list-style-type: none;
 }
 .ga-mobile-menu #overlay li {
@@ -167,24 +172,24 @@ display: none;
 .ga-mobile-menu #overlay li a {
     color: var(--text-color);
     text-decoration: none;
-	font-size: 16px;
+	font-size: 24px;
 	padding: 12px;
 	font-weight: normal;
 }
 .ga-mobile-menu #overlay .actions { 
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	margin-top: 60px;
 }
 .ga-mobile-menu #overlay .actions button {
 	width: 100%;
 }
 .ga-mobile-menu #overlay .actions .login {
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: normal;
 	margin: 12px 0;
 	padding: 16px 32px;
 }
 .ga-mobile-menu #overlay .actions .ga-btn-primary {
-	font-size: 16px;
+	font-size: 24px;
 }
