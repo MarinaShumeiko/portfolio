@@ -140,10 +140,9 @@ display: none;
 	top: 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
     height: 100vh;
     width: 100vw;
-    background: var(--main-bg-color);
+    background: var(--block-bg-dark);
     z-index: 2;
 	padding: 0 2rem;
 	padding: 60px 40px;
@@ -161,6 +160,7 @@ display: none;
       flex-direction: column;
       text-align: center;
 	  list-style-type: none;
+	  padding-top: 60px;
 }
 .ga-mobile-menu #overlay li {
 	padding: 12px 0;
