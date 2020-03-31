@@ -7,13 +7,11 @@ body {
     font-weight: normal;
     background-color: var(--main-bg-color);
 }
-
-
 /* HEADER */
 .ga-header-bg {
     max-width: 1520px;
     margin: 0 auto;
-    background: url(images/home-hero-img.png) no-repeat 100% 100px;
+    background: url(images/home-hero-img.png) no-repeat 100% 30px;
     background-size: contain;
     padding-bottom: 160px;
 }
@@ -86,13 +84,56 @@ body {
 	background: url(images/play.svg) no-repeat;
 }
 
+/* PUBLISHERS */
+.ga-publishers {
+    padding: 50px 40px;
+}
+.ga-publishers_title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 32px;
+    font-weight: medium;
+}
+.ga-publishers_items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ga-publishers_items li{
+    margin-right: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.ga-publishers_items li:last-child{
+    margin-right: 0;
+}
+.ga-publishers_items li .ga-publisher--feedback {
+    position: absolute;
+    width: 580px;
+    height: auto;
+    bottom: 100px;
+    left: -210px;
+    display: none;
+}
+.ga-publishers_items li:hover .ga-publisher--feedback {
+    display: block;
+}
 
-
-
-
-
-.publishers {height: 300px; background: url(images/pub.png) no-repeat 50% 50%;}
-
+/* EVENTS */
+.ga-events {
+    display: flex;
+    align-items: center;
+    padding: 160px 120px;
+    box-sizing: border-box;
+}
+.ga-event-cards {
+    flex: 1;
+    padding-right: 120px;
+}
+.ga-events .ga-text-section {
+    flex: 1;
+}
 /* INBOX BANNER */
 .ga-inbox-bg {
     background-color: var(--primari-color);

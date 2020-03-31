@@ -3,7 +3,7 @@
 @media screen and (max-width: 1440px) {
      /* HEADER */
     .ga-header-bg {
-        background-position: 120% 100px;
+        background-position: 120% 30px;
     }
     .ga-header--desktop ul {
         margin-right: 40px;
@@ -22,7 +22,7 @@
 @media screen and (max-width: 1280px) {
      /* HEADER */
     .ga-header-bg {
-        background-position: 140% 100px;
+        background-position: 140% 30px;
     }
     .ga-header--desktop ul{
         margin-right: 20px;
@@ -60,6 +60,38 @@
     .ga-hero .hero-action {
         flex-wrap: wrap;
     }
+    /* PUBLISHERS */
+    .ga-publishers_items li{
+        margin-bottom: 32px;
+    }
+    /* PUBLISHERS */
+    .ga-publishers_items li:first-child .ga-publisher--feedback {
+        left: 0;
+    }
+    .ga-publishers_items li:first-child .ga-publisher--feedback:after {
+        left: 20%;
+    }
+    .ga-publishers_items li:last-child .ga-publisher--feedback {
+        left: inherit;
+        right: 0;
+    }
+    .ga-publishers_items li:last-child .ga-publisher--feedback:after {
+        left: 80%;
+    }
+    /* EVENTS */
+    .ga-events {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ga-event-cards {
+        flex: auto;
+        padding-right: 0;
+        margin-bottom: 80px;
+    }
+    .ga-events .ga-text-section {
+        max-width: 620px;
+    }
     /* INBOX BANNER */
     .ga-inbox {
         flex-wrap: wrap;
@@ -94,5 +126,9 @@
     /* FOOTER */
     .ga-footer_list {
         width: 200px;
+    }
+    /* PUBLISHERS */
+    .ga-publishers_items li:hover .ga-publisher--feedback {
+        display: none;
     }
 }

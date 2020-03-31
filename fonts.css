@@ -30,3 +30,15 @@
     font-style: normal;
     font-weight: 700;
 }
+@font-face {
+    font-family: 'din';
+    src: url(font/DINOT-Lightitalic.ttf);
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'din';
+    src: url(font/DINOT-Blackitalic.ttf);
+    font-style: italic;
+    font-weight: 700;
+}
