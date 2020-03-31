@@ -67,6 +67,13 @@
     .ga-inbox-form {
         margin-top: 24px;
     }
+    .ga-inbox-form input,
+    .ga-inbox-form .ga-btn-primary {
+        margin-bottom: 24px;
+    }
+    .ga-inbox .ga-title {
+        flex: auto;
+    }
      /* FOOTER */
      .ga-footer_top {
         flex-wrap: wrap;
