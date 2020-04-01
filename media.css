@@ -111,7 +111,21 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        padding-right: 10.5%;
+        padding-right: 18%;
+        padding-left: 18%;
+     }
+     .ga-features .ga-text-section {
+         margin-right: 0;
+         margin-bottom: 60px;
+     }
+     .ga-slider-wrap {
+         height: 600px;
+     }
+     .ga-slider-wrap .ga-prevNext {
+         left: 200px    ;
+     }
+     .ga-slider-wrap .ga-bullets {
+        left:236px
      }
     /* INBOX BANNER */
     .ga-inbox {
