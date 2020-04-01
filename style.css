@@ -180,6 +180,24 @@ body {
     color: var(--block-bg-darker);
 }
 
+/* FEATURES */
+.ga-features {
+    position: relative;
+    overflow: hidden;
+    padding-bottom:160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16.5%;
+    box-sizing: border-box;
+}
+.ga-features .ga-text-section {
+    margin-right: 70px;
+    padding-right: 40px;
+    flex: 1;
+    max-width: 620px;
+    box-sizing: border-box;
+}
 /* FOOTER */
 .ga-footer {
     font-size: 16px;
