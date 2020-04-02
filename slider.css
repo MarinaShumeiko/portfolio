@@ -38,6 +38,7 @@ http://stackoverflow.com/a/34696029/383904
 	width: 100%;
 	background: none 50% no-repeat;
 	background-size: cover;
+	border-radius: 12px;
 }
 
 /* PREV/NEXT, CONTAINERS & ANCHORS */

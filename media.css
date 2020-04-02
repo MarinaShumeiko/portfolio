@@ -6,6 +6,18 @@
         padding-left: 10.5%;
     }
 }
+@media screen and (min-width: 2048px) {
+    /* FEATURES */
+    .ga-features {
+        padding-left: 20.5%;
+    }
+}
+@media screen and (min-width: 2560px) {
+    /* FEATURES */
+    .ga-features {
+        padding-left: 24.5%;
+    }
+}
 @media screen and (max-width: 1440px) {
      /* HEADER */
     .ga-header-bg {
@@ -127,6 +139,36 @@
      .ga-slider-wrap .ga-bullets {
         left:236px
      }
+
+    /* Analytics */
+    .ga-analytics_blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ga-analytics .ga-card {
+        max-width: 70%;
+        margin-bottom: 0;
+    }
+    .ga-analytics .ga-card-center {
+        min-width: 80%;
+    }
+    .ga-analytics .ga-card:first-child {
+        margin-right: 0;
+        margin-bottom: -12px;
+    }
+    .ga-analytics .ga-card:last-child {
+        margin-left: 0;
+        margin-top: -12px;
+    }
+
+    /* Insights */
+    .ga-insights > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ga-insights-img {
+        margin-bottom: 80px;
+    }
     /* INBOX BANNER */
     .ga-inbox {
         flex-wrap: wrap;

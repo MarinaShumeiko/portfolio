@@ -18,7 +18,14 @@
     max-width: 1520px;
     margin: 0 auto;
 }
-
+.ga-items-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.ga-text-block {
+	max-width: 620px;
+}
 /* Button */
 .ga-btn-primary {
 	border-radius: var(--border-radius-small);
@@ -39,6 +46,7 @@
 .ga-btn-primary.outline {
 	border: 2px solid var(--primari-color);
 	background: none;
+	padding: 14px 32px;
 }
 .ga-btn-primary.dark {
 	background-color: var(--block-bg-darker);

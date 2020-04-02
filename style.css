@@ -186,7 +186,6 @@ body {
     overflow: hidden;
     padding-bottom:160px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-left: 16.5%;
     box-sizing: border-box;
@@ -197,6 +196,132 @@ body {
     flex: 1;
     max-width: 620px;
     box-sizing: border-box;
+}
+
+/* Analytics */
+.ga-blue-gradient {
+    background: radial-gradient(ellipse farthest-side at left, #374972,  #151829);
+    margin-top: -160px;
+}
+.ga-analytics {
+    margin-top: 160px;
+    padding: 0 40px 324px 40px;
+}
+.ga-analytics .ga-text-block,
+.ga-engines .ga-text-block {
+    text-align: center;
+    margin: 0 auto;
+}
+.ga-analytics .ga-text-block {
+    margin-bottom: 148px;
+}
+.ga-analytics_blocks {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.ga-analytics .ga-card {
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: var(--border-radius-big);
+    box-sizing: border-box;
+    padding: 72px;
+    max-width: 480px;
+    margin-bottom: 48px;
+    background-color: var(--block-bg-light);
+}
+.ga-analytics .ga-card-center {
+    background-color: #222535;
+    z-index: 2;
+    margin: 0;
+    margin-top: -48px;
+}
+.ga-analytics .ga-card:first-child {
+    margin-right: -12px;
+}
+.ga-analytics .ga-card:last-child {
+    margin-left: -12px;
+}
+.ga-analytics .ga-card h3 {
+    position: relative;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 56px;
+    text-align: center;
+}
+.ga-analytics .ga-card h3 span {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+.ga-analytics .ga-card li {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Engines */
+.ga-engines {
+    margin-bottom: 200px;
+}
+.ga-engines-logos {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.ga-engines_actions {
+    display: flex;
+    justify-content: center;
+}
+.ga-engines_actions .ga-btn-primary {
+    margin-right: 24px;
+}
+
+/* Insights */
+.ga-insights {
+    padding-right: 120px;
+    margin-bottom: 200px;
+}
+.ga-insights > div {
+    display: flex;
+    align-items: center;
+}
+.ga-insights-img {
+    background: url(images/insights.png) no-repeat top right;
+    background-size: cover;
+    height: 988px;
+    max-width: 920px;
+    width: 100%;
+    border-radius: 12px;
+}
+.ga-insights-desc {
+    margin-left: 120px;
+    max-width: 620px;
+}
+.ga-insights-desc_item {
+    margin-bottom: 80px;
+}
+.ga-insights-desc_item img{
+    margin-bottom: 32px;
+}
+.ga-insights-desc_item.middle {
+    margin-left: 60px;
+}
+.ga-insights-desc_item .ga-title {
+    font-size: 42px;
+}
+.ga-insights-desc_item .desc {
+    font-size: 20px;
+    font-weight: normal;
+}
+.ga-insights-actions {
+    justify-content: center;
 }
 /* FOOTER */
 .ga-footer {
