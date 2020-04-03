@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login page</title>
+        <title>GA-landing page</title>
         <meta content="text/html; charset=utf-8"http-equiv="Content-Type">
         <link rel="stylesheet" type="text/css"  href="reset.css" />
         <link rel="stylesheet" type="text/css"  href="components.css" />
         <link rel="stylesheet" type="text/css"  href="fonts.css" />
         <link rel="stylesheet" type="text/css"  href="slider.css" />
+        <link rel="stylesheet" type="text/css"  href="modal.css" />
         <link rel="stylesheet" type="text/css"  href="style.css" />
         <link rel="stylesheet" type="text/css"  href="media.css" />
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-        <script type="text/javascript" src="https:////ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     </head>
     <body>
         <header class="ga-header-bg">
@@ -64,9 +62,22 @@
                     <p class="ga-description">Industry leading analytics for game developers, bringing clarity and unlocking insights across your entire portfolio. Core analytics free forever.</p>
                     <div class="hero-action">
                         <button class="ga-btn-primary btn-large">It's free, start now</button>
-                        <button class="ga-btn-primary btn-large outline icon"><span class="icon-play"></span>Preview tool</button>
+                        <button class="ga-btn-primary btn-large outline icon ga-modal-trigger" data-modal="ga-modal-name"><span class="icon-play"></span>Preview tool</button>
                     </div>
                 </div>
+                <div class="ga-modal" id="ga-modal-name">
+                    <div class="ga-modal-sandbox"></div>
+                    <div class="ga-modal-box">
+                    <div class="ga-close-modal"></div> 
+                      <div class="ga-modal-body">
+                        <video width="100%" height="100%" controls>
+                            <source src="videos/toystory.mp4" type="video/mp4">
+                            <source src="toystory.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                          </video>
+                      </div>
+                    </div>
+                  </div>
             </section>
         </header>
         <section class="ga-publishers">
@@ -287,11 +298,10 @@
                     </div>
                 </div>
             </div>
-            <div class="ga-insights-actions">
-                <button class="ga-btn-primary btn-large">Visit the insights hub</button>
-            </div>
-           
         </section>
+        <div class="ga-insights-actions ga-center">
+            <button class="ga-btn-primary btn-large">Visit the insights hub</button>
+        </div>
         <section class="ga-inbox-bg">
             <div class="ga-inbox ga-center">
                 <h3 class="ga-title medium">Game industry insights,<span>delivered to your inbox</span></h3>
@@ -367,5 +377,6 @@
             </div>
         </footer>
     </body>
-    <script src="animation.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="modal.js"></script>
 </html>

@@ -286,7 +286,7 @@ body {
 /* Insights */
 .ga-insights {
     padding-right: 120px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 }
 .ga-insights > div {
     display: flex;
@@ -321,7 +321,9 @@ body {
     font-weight: normal;
 }
 .ga-insights-actions {
+    display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 }
 /* FOOTER */
 .ga-footer {
