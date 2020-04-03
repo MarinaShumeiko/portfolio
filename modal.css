@@ -62,6 +62,9 @@
 	background-position: -3px 17px;
 }
 
+.ga-close-modal:hover {
+	background-color: var(--primari-color-hover);
+}
 /* Animation */
 @-webkit-keyframes modalbox {
   0% {
