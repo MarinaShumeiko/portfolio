@@ -200,12 +200,24 @@ body {
 
 /* Analytics */
 .ga-blue-gradient {
+    position: relative;
     background: radial-gradient(ellipse farthest-side at left, #374972,  #151829);
     margin-top: -160px;
+}
+.ga-left-bg-image {
+    position: absolute;
+    top: 800px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background: url(images/left-bg-car.png) no-repeat center left;
+    background-size: contain;
+    z-index: 0;
 }
 .ga-analytics {
     margin-top: 160px;
     padding: 0 40px 324px 40px;
+    z-index: 1;
 }
 .ga-analytics .ga-text-block,
 .ga-engines .ga-text-block {
