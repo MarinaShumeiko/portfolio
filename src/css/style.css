@@ -140,7 +140,6 @@ body {
 .ga-text-right,
 .ga-text-left {
     display: flex;
-    align-items: center;
     padding: 100px 40px;
     box-sizing: border-box;
 }
