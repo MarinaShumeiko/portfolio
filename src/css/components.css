@@ -1,0 +1,387 @@
+:root {
+    --main-bg-color: #131122;
+	--primari-color:#7130D6;
+	--primari-color-hover:#833DF2;
+    --secondary-color:#FF6DB9;
+    --block-bg-light:#282549;
+	--block-bg-dark:#1D1B35;
+	--block-bg-darker: #1D1B35;
+	--text-color:#eee;
+	
+	--border-radius-small: 4px;
+	--border-radius-big: 12px;
+	--gradiend-bg-dark: linear-gradient(45deg, #1E2131, #181A28);
+	--gradiend-header: linear-gradient(45deg, #141525, #251F44);
+  }
+
+/* GLOBAL */
+.ga-center {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+.ga-items-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.ga-text-block {
+	max-width: 620px;
+}
+.ga-text-section.center {
+	text-align: center;
+}
+/* Button */
+.ga-btn-primary {
+	border-radius: var(--border-radius-small);
+	background-color: var(--primari-color);
+	padding: 16px 32px;
+	margin-bottom: 24px;
+	font-weight: bold;
+	font-size: 14px;
+	color: var(--text-color);
+	cursor: pointer;
+}
+.ga-btn-primary a {
+	color: var(--text-color);
+	cursor: pointer;
+	text-decoration: none;
+}
+.ga-btn-primary:hover {
+	background-color: var(--primari-color-hover);
+}
+.ga-btn-primary.btn-large {
+	font-size: 20px;
+}
+.ga-btn-primary.outline {
+	border: 2px solid var(--primari-color);
+	background: none;
+	padding: 14px 32px;
+}
+.ga-btn-primary.dark {
+	background-color: var(--block-bg-darker);
+}
+.ga-btn-primary.dark:hover {
+	background-color: var(--block-bg-dark);
+}
+.ga-btn-primary.outline:hover {
+	border: 2px solid var(--primari-color-hover);
+}
+.ga-btn-primary.icon {
+	display: inline-flex;
+	align-items: center;
+	padding-left: 16px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.ga-btn-primary.icon span{
+	display: inline-block;
+	padding-right: 16px;
+	width: 32px;
+	height: 32px;
+}
+.ga-title {
+	font-size: 54px;
+	line-height: 1.1;
+	margin-bottom: 24px;
+	color: var(--text-color);
+	font-weight: bolder;
+}
+.ga-title.medium {
+	font-size: 43px;
+	line-height: 1.1;
+	margin-bottom: 24px;
+	color: var(--text-color);
+	font-weight: bolder;
+}
+.ga-subtitle {
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: 12px;
+	color: var(--secondary-color);
+	text-transform: uppercase;
+}
+.ga-description {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color: var(--text-color);
+}
+li.ga-description {
+	margin: 0;
+}
+/* Customer feedback block */
+.ga-publisher--feedback {
+	position: relative;
+	background-color: var(--block-bg-dark);
+	box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.05);
+	border-radius: var(--border-radius-big);
+	padding: 74px 80px;
+	max-width: 580px;
+	box-sizing: border-box;
+}
+.ga-publisher--feedback:after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	border-radius: var(--border-radius-small);
+	position: absolute;
+	bottom: -20px;
+	left: calc(50% - 20px);
+	background-color: var(--block-bg-dark);
+	transform: rotate(45deg);
+}
+.ga-publisher--feedback_text {
+	font-size: 24px;
+	font-weight: 300;
+	font-style: italic;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #373c58;
+}
+.ga-publisher--feedback_text span {
+	display: inline-block;
+	color: var(--secondary-color);
+	font-size: 40px;
+	line-height: 0.9;
+	font-weight: bolder;
+	font-style: italic;
+	margin-left: -25px;
+    padding: 0 10px 0 0;
+}
+.ga-publisher--feedback_block {
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.ga-publisher--feedback_block .avatar{
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+}
+.ga-publisher--feedback_block .avatar.voodoo{
+	background: url(../images/ava.jpg) no-repeat;
+	background-size: contain;
+}
+.ga-publisher--feedback_block .desc {
+	color: var(--secondary-color);
+	font-size: 16px;
+	font-weight: 300;
+}
+.ga-publisher--feedback_block .name {
+	color: var(--text-color);
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* Event code example card */
+.ga-event-card {
+	padding: 32px;
+	background: var(--block-bg-light);
+	border-radius: var(--border-radius-big);
+	max-width: 620px;
+	margin-bottom: 16px;
+	cursor: pointer;
+}
+.ga-event-card.top,
+.ga-event-card.bottom {
+	opacity: 50%;
+}
+.ga-event-card.top {
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.04))
+}
+.ga-event-card.bottom {
+	background: linear-gradient(rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0))
+}
+.ga-event-card:hover {
+	background: var(--block-bg-light) !important;
+	transition-timing-function: ease;
+  	transition: 0.5s;
+	transform: scale(1.05);
+	opacity: 1!important;
+}
+.ga-event-card_date {
+	font-size: 14px;
+	font-weight: 300;
+}
+.ga-event-card_title {
+	font-size: 18px;
+	font-weight: medium;
+	margin-bottom: 16px;
+}
+.ga-event-card_code {
+	font-size: 20px;
+	font-weight: 300;
+}
+.ga-event-card_code span {
+	color: var(--secondary-color);
+}
+/* Mobile menu */
+.ga-mobile-header {
+	padding: 60px 0 40px;
+	background-color: #201b3a;
+	position: fixed;
+    width: 100%;
+	height: auto;
+	z-index: 100;
+}
+.ga-mobile-menu #overlay-button {
+    position: absolute;
+    right: 2em;
+    top: 48px;
+    padding: 26px 11px;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
+}
+.ga-mobile-menu #overlay-button span {
+    height: 4px;
+    width: 35px;
+    border-radius: 2px;
+    background-color: white;
+    position: relative;
+    display: block;
+    transition: all .2s ease-in-out;
+}
+.ga-mobile-menu #overlay-button span:before {
+    top: -10px;
+    visibility: visible;
+}
+.ga-mobile-menu #overlay-button span:after {
+    top: 10px;
+}
+.ga-mobile-menu #overlay-button span:before, 
+.ga-mobile-menu #overlay-button span:after {
+    height: 4px;
+    width: 35px;
+    border-radius: 2px;
+    background-color: white;
+    position: absolute;
+    content: "";
+    transition: all .2s ease-in-out;
+}
+.ga-mobile-menu input[type=checkbox] {
+	display: none;
+}
+.ga-mobile-menu input[type=checkbox]:checked ~ #overlay {
+    visibility: visible;
+}
+.ga-mobile-menu input[type=checkbox]:checked ~ #overlay-button span {
+    background: transparent;
+}
+.ga-mobile-menu input[type=checkbox]:checked ~ #overlay-button span:before {
+    transform: rotate(45deg) translate(7px, 7px);
+    opacity: 1;
+}
+.ga-mobile-menu input[type=checkbox]:checked ~ #overlay-button span:after {
+    transform: rotate(-45deg) translate(7px, -7px);
+} 
+.ga-mobile-menu #overlay {
+	visibility: hidden;
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: var(--block-bg-dark);
+    z-index: 2;
+	padding: 0 2rem;
+	padding: 60px 40px;
+	box-sizing: border-box;
+}
+.ga-mobile-menu #overlay.active {
+    visibility: visible;
+}
+.ga-mobile-menu #overlay .logo {
+	margin: 0;
+	z-index: 2;
+}
+.ga-mobile-menu #overlay ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+	  list-style-type: none;
+	  padding-top: 60px;
+}
+.ga-mobile-menu #overlay li {
+	padding: 12px 0;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+.ga-mobile-menu #overlay li a:hover,
+.ga-mobile-menu #overlay .actions .login:hover  {
+	background-color: var(--block-bg-light);
+}
+.ga-mobile-menu #overlay li a {
+    color: var(--text-color);
+    text-decoration: none;
+	font-size: 32px;
+	padding: 12px;
+	font-weight: normal;
+}
+.ga-mobile-menu #overlay .actions { 
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+.ga-mobile-menu #overlay .actions button {
+	width: 100%;
+}
+.ga-mobile-menu #overlay .actions .login {
+	font-size: 32px;
+	font-weight: normal;
+	margin: 12px 0;
+	padding: 16px 32px;
+}
+.ga-mobile-menu #overlay .actions .ga-btn-primary {
+	font-size: 32px;
+}
+
+
+.ptb100 {
+	padding: 100px 0 ;
+}
+.ptb40 {
+	padding: 40px 0 ;
+}
+.pb10 {
+	padding: 0px 0 10px;
+}
+.bold {font-weight: bold;}
+.flex {display: flex;}
+.between {justify-content: space-between;}
+
+.ga-case-img.gameanalytics-tool {
+	width: 100%;
+    flex: 1;
+    height: 680px;
+	background: url(../images/Project-image.png) no-repeat;
+	background-size: contain;
+}
+.ga-case-img.gameanalytics-tool2 {
+	width: 100%;
+    flex: 1;
+    height: 680px;
+	background: url(../images/Project-image3.png) no-repeat;
+	background-size: contain;
+}
+
+.ga-case-img.gameanalytics-mobile {
+	width: 100%;
+    flex: 1;
+    height: 733px;
+	background: url(../images/mobile.png) no-repeat;
+	background-size: contain;
+}
+
+.ga-case-img.gameanalytics-website {
+	width: 100%;
+    flex: 1;
+    height: 680px;
+	background: url(../images/Project-image2.png) no-repeat;
+	background-size: contain;
+}

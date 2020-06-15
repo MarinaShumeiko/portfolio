@@ -1,0 +1,254 @@
+
+/* Header */
+@media screen and (max-width: 1600px) {
+    /* FEATURES */
+    .ga-features {
+        padding-left: 10.5%;
+    }
+}
+@media screen and (min-width: 2048px) {
+    /* FEATURES */
+    .ga-features {
+        padding-left: 20.5%;
+    }
+}
+@media screen and (min-width: 2560px) {
+    /* FEATURES */
+    .ga-features {
+        padding-left: 24.5%;
+    }
+}
+@media screen and (max-width: 1440px) {
+     /* HEADER */
+    .ga-header-bg {
+        background-position: 120% 30px;
+    }
+    .ga-header--desktop ul {
+        margin-right: 40px;
+    }
+    .ga-header--desktop li {
+        margin-right: 12px; 
+    }
+    .ga-header--desktop li a,
+    .ga-header--desktop .login {
+        padding: 12px;
+    }
+    .ga-header--desktop .login {
+        margin-right: 12px;
+    }
+    /* FEATURES */
+    .ga-features {
+        padding-left: 8.5%;
+    }
+
+    .ga-left-bg-image {
+        top: 900px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1280px) {
+     /* HEADER */
+    .ga-header-bg {
+        background-position: 140% 30px;
+    }
+    .ga-header--desktop ul{
+        margin-right: 20px;
+    }
+    .ga-header--desktop li {
+        margin-right: 4px; 
+    }
+    .ga-header--desktop li a,
+    .ga-header--desktop .login {
+        padding: 8px;
+    }
+     /* FEATURES */
+     .ga-features {
+        padding-left: 10.5%;
+    }
+
+    .ga-left-bg-image {
+        top: 1000px;
+    }
+}
+@media screen and (min-width: 1024px) {
+     /* HEADER */
+    .ga-mobile-menu { display: none;}
+    .ga-header--desktop {display: flex;}
+}
+@media screen and (max-width: 1024px) {
+    /* HEADER */
+    .ga-hero,
+    .ga-text-right,
+    .ga-text-left {flex-direction: column;}
+    .ga-text-right {flex-direction: column-reverse;}
+    .photo {max-width: 90%;}
+
+    .ga-text-right .ga-text-section,
+    .ga-text-left .ga-text-section {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .ga-case-img.gameanalytics-tool,
+    .ga-case-img.gameanalytics-tool2,
+    .ga-case-img.gameanalytics-mobile,
+    .ga-case-img.gameanalytics-website {
+        flex: inherit;
+        background-position: center;
+        margin-bottom: 40px;
+    }
+    .ga-hero .photo {margin-top: 0;}
+    .ga-header-bg {
+        background-position: 100% 100%;
+        padding-bottom: 100px;
+    }
+    .ga-mobile-menu {
+        display: block;
+        overflow: hidden;
+    }
+    .ga-mobile-menu .logo {
+        margin-left: 40px;
+    }
+    .ga-header--desktop {display: none;}
+
+    /* HERO */
+    .ga-hero { padding-top: 160px;}
+    .ga-hero .hero-action {
+        flex-wrap: wrap;
+    }
+    /* PUBLISHERS */
+    .ga-publishers_items li{
+        margin-bottom: 32px;
+    }
+    .ga-publishers_items li:first-child .ga-publisher--feedback {
+        left: 0;
+    }
+    .ga-publishers_items li:first-child .ga-publisher--feedback:after {
+        left: 20%;
+    }
+    .ga-publishers_items li:last-child .ga-publisher--feedback {
+        left: inherit;
+        right: 0;
+    }
+    .ga-publishers_items li:last-child .ga-publisher--feedback:after {
+        left: 80%;
+    }
+    /* EVENTS */
+    .ga-events {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .ga-event-cards {
+        flex: auto;
+        padding-right: 0;
+        margin-bottom: 80px;
+    }
+    .ga-events .ga-text-section {
+        max-width: 620px;
+    }
+     /* FEATURES */
+     .ga-features {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 18%;
+        padding-left: 18%;
+     }
+     .ga-features .ga-text-section {
+         margin-right: 0;
+         margin-bottom: 60px;
+     }
+     .ga-slider-wrap {
+         height: 600px;
+     }
+     .ga-slider-wrap .ga-prevNext {
+         left: 200px    ;
+     }
+     .ga-slider-wrap .ga-bullets {
+        left:236px
+     }
+
+    /* Analytics */
+    .ga-analytics_blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ga-analytics .ga-card {
+        max-width: 70%;
+        margin-bottom: 0;
+    }
+    .ga-analytics .ga-card-center {
+        min-width: 80%;
+    }
+    .ga-analytics .ga-card:first-child {
+        margin-right: 0;
+        margin-bottom: -12px;
+    }
+    .ga-analytics .ga-card:last-child {
+        margin-left: 0;
+        margin-top: -12px;
+    }
+
+    /* Insights */
+    .ga-insights > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ga-insights-img {
+        margin-bottom: 80px;
+    }
+    /* INBOX BANNER */
+    .ga-inbox {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .ga-inbox-form {
+        margin-top: 24px;
+    }
+    .ga-inbox-form img{
+        margin: 60px auto 0;
+    }
+    .ga-inbox-form input,
+    .ga-inbox-form .ga-btn-primary {
+        margin-bottom: 24px;
+    }
+    .ga-inbox .ga-title {
+        flex: auto;
+    }
+    .ga-inbox .skills {width:200px}
+    .ga-inbox li.ga-description {font-size: 20px;}
+     /* FOOTER */
+     .ga-footer_top {
+        flex-wrap: wrap;
+     }
+     .ga-footer_list:first-child {
+         width: 100%;
+         border-bottom: 1px solid var(--block-bg-dark);
+         padding-bottom: 12px;
+         margin-bottom: 24px;
+         margin-right: 0;
+     }
+     .ga-footer_bottom {
+         background-color: var(--main-bg-color);
+     }
+
+     /* Other */
+     .ga-left-bg-image {
+        top: inherit;
+        bottom: 520px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* FOOTER */
+    .ga-footer_list {
+        width: 200px;
+    }
+    /* PUBLISHERS */
+    .ga-publishers_items li:hover .ga-publisher--feedback {
+        display: none;
+    }
+}

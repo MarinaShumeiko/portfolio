@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="24px" viewBox="0 0 16 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>figma.aaa5794c</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Home" transform="translate(-1014.000000, -5588.000000)" fill-rule="nonzero">
+            <g id="Icons" transform="translate(960.000000, 5587.000000)">
+                <g id="figma.aaa5794c" transform="translate(54.000000, 1.000000)">
+                    <path d="M4,23.9974 C6.208,23.9974 8,22.2058 8,19.9982 L8,15.999 L4,15.999 C1.792,15.999 0,17.7907 0,19.9982 C0,22.2058 1.792,23.9974 4,23.9974 Z" id="Path" fill="#0ACF83"></path>
+                    <path d="M0,12.0002 C0,9.79262 1.792,8.00098 4,8.00098 L8,8.00098 L8,15.9994 L4,15.9994 C1.792,15.9994 0,14.2077 0,12.0002 Z" id="Path" fill="#A259FF"></path>
+                    <path d="M0,4.00164 C0,1.79408 1.792,0.00244141 4,0.00244141 L8,0.00244141 L8,8.00084 L4,8.00084 C1.792,8.00084 0,6.2092 0,4.00164 Z" id="Path" fill="#F24E1E"></path>
+                    <path d="M8,0.00244141 L12,0.00244141 C14.208,0.00244141 16,1.79408 16,4.00164 C16,6.2092 14.208,8.00084 12,8.00084 L8,8.00084 L8,0.00244141 Z" id="Path" fill="#FF7262"></path>
+                    <path d="M16,12.0002 C16,14.2077 14.208,15.9994 12,15.9994 C9.792,15.9994 8,14.2077 8,12.0002 C8,9.79262 9.792,8.00098 12,8.00098 C14.208,8.00098 16,9.79262 16,12.0002 Z" id="Path" fill="#1ABCFE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

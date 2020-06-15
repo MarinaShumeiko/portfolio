@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="26px" viewBox="0 0 29 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bitbucket.800629c0</title>
+    <defs>
+        <linearGradient x1="76.0920635%" y1="13.2214215%" x2="33.0820862%" y2="58.5889819%" id="linearGradient-1">
+            <stop stop-color="#0052CC" offset="20%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Home" transform="translate(-1420.000000, -5587.000000)">
+            <g id="Icons" transform="translate(960.000000, 5587.000000)">
+                <g id="bitbucket.800629c0" transform="translate(460.000000, 0.000000)">
+                    <path d="M0.921514,1.02075 C1.08997,0.826542 1.335,0.716295 1.5917,0.719209 L27.1417,0.675292659 C27.3984,0.672435 27.6434,0.782683 27.8119,0.976891 C27.9803,1.1711 28.0552,1.42967 28.0167,1.68412 L24.298,24.535 C24.2325,24.9675 23.8593,25.2856 23.423,25.2806726 L5.6167,25.2806726 C5.02696,25.2871 4.52279,24.8566 4.43545,24.2718 L0.716702,1.72798 C0.678177,1.47353 0.753059,1.21496 0.921514,1.02075 Z M11.5667,17.035 L17.2542,17.035 L18.6542,8.96482 L9.9917,8.96482 L11.5667,17.035 Z" id="Shape" fill="#2684FF"></path>
+                    <path d="M26.8354,8.96484 L18.6104,8.96484 L17.2542,17.035 L11.5667,17.035 L4.7854,25.0175 C5.00116,25.2137 5.28162,25.323 5.5729,25.3245559 L23.3792,25.3245559 C23.8155,25.3294 24.1887,25.0114 24.2542,24.5789 L26.8354,8.96484 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -3,381 +3,213 @@
     <head>
         <title>GA-landing page</title>
         <meta content="text/html; charset=utf-8"http-equiv="Content-Type">
-        <link rel="stylesheet" type="text/css"  href="reset.css" />
-        <link rel="stylesheet" type="text/css"  href="components.css" />
-        <link rel="stylesheet" type="text/css"  href="fonts.css" />
-        <link rel="stylesheet" type="text/css"  href="slider.css" />
-        <link rel="stylesheet" type="text/css"  href="modal.css" />
-        <link rel="stylesheet" type="text/css"  href="style.css" />
-        <link rel="stylesheet" type="text/css"  href="media.css" />
+        <link rel="stylesheet" type="text/css"  href="src/css/reset.css" />
+        <link rel="stylesheet" type="text/css"  href="src/css/components.css" />
+        <link rel="stylesheet" type="text/css"  href="src/css/fonts.css" />
+        <link rel="stylesheet" type="text/css"  href="src/css/slider.css" />
+        <link rel="stylesheet" type="text/css"  href="src/css/modal.css" />
+        <link rel="stylesheet" type="text/css"  href="src/css/style.css" />
+        <link rel="stylesheet" type="text/css"  href="src/css/media.css" />
     </head>
     <body>
-        <header class="ga-header-bg">
-            <section class="ga-header">
-                <div class="ga-header--desktop">
-                    <a class="logo" href="#"></a>
-                    <menu class="ga-desktop-menu">
-                        <ul>
-                            <li><a>How it works</a></li>
-                            <li><a>Features</a></li>
-                            <li><a>Pricing</a></li>
-                            <li><a>Insights</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Docs</a></li>
-                        </ul>
-                        <div class="actions">
-                            <button class="login">Login</button>
-                            <button class="ga-btn-primary">Get started</button>
-                        </div>
-                    </menu>
-                </div>
-                <div class="ga-mobile-menu">
-                    <div class="ga-mobile-header">
-                        <a class="logo" href="#"></a>
-                        <input type="checkbox" id="overlay-input" />
-                        <label for="overlay-input" id="overlay-button"><span></span></label>
-                        <div id="overlay">
+        <header class="ga-header-gradient">
+            <section class="ga-header-bg1">
+                <section class="ga-header-bg">
+                    <section class="ga-header">
+                        <div class="ga-header--desktop">
                             <a class="logo" href="#"></a>
-                            <ul>
-                                <li><a>How it works</a></li>
-                                <li><a>Features</a></li>
-                                <li><a>Pricing</a></li>
-                                <li><a>Insights</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Docs</a></li>
-                            </ul>
-                            <div class="actions">
-                                <button class="login">Login</button>
-                                <button class="ga-btn-primary">Get started</button>
+                            <menu class="ga-desktop-menu">
+                                <ul>
+                                    <li><a href="#case">Case Studies</a></li>
+                                    <li><a href="https://www.linkedin.com/in/marina-shumeyko-558aa542/" target="_blank">About me</a></li>
+                                </ul>
+                                <div class="actions">
+                                    <button class="login"><a href="./CVJUN2020-MarinaShumeyko.pdf" download>Download CV</a></button>
+                                    <button class="ga-btn-primary contact"><a href="#footer">Contact</a></button>
+                                </div>
+                            </menu>
+                        </div>
+                        <div class="ga-mobile-menu">
+                            <div class="ga-mobile-header">
+                                <a class="logo" href="#"></a>
+                                <input type="checkbox" id="overlay-input" />
+                                <label for="overlay-input" id="overlay-button"><span></span></label>
+                                <div id="overlay">
+                                    <a class="logo" href="#"></a>
+                                    <ul>
+                                        <li><a target="_blank" href="https://www.linkedin.com/in/marina-shumeyko-558aa542/" target="_blank">About me</a></li>
+                                        <li><a target="_blank" href="/CVJUN2020-MarinaShumeyko.pdf" download>Download CV</a></li>
+                                        <li><a target="_blank" href="mailto:mar.shumeyko@gmail.com">Contact</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section class="ga-hero ga-center">
-                <div class="ga-text-block">
-                    <h1 class="ga-title">
-                        The best games start with GameAnalytics
-                    </h1>
-                    <p class="ga-description">Industry leading analytics for game developers, bringing clarity and unlocking insights across your entire portfolio. Core analytics free forever.</p>
-                    <div class="hero-action">
-                        <button class="ga-btn-primary btn-large">It's free, start now</button>
-                        <button class="ga-btn-primary btn-large outline icon ga-modal-trigger" data-modal="ga-modal-name"><span class="icon-play"></span>Preview tool</button>
-                    </div>
-                </div>
-                <div class="ga-modal" id="ga-modal-name">
-                    <div class="ga-modal-sandbox"></div>
-                    <div class="ga-modal-box">
-                    <div class="ga-close-modal"></div> 
-                      <div class="ga-modal-body">
-                        <video width="100%" height="100%" controls>
-                            <source src="videos/toystory.mp4" type="video/mp4">
-                            <source src="toystory.ogg" type="video/ogg">
-                            Your browser does not support the video tag.
-                          </video>
-                      </div>
-                    </div>
-                  </div>
+                    </section>
+                    <section class="ga-hero ga-center">
+                        <div class="ga-text-block">
+                            <h3 class="ga-subtitle">I design Apps, Websites and Dashboards.</h3>
+                            <h1 class="ga-title">Marina Shumeyko</h1>
+                            <h2 class="ga-title medium">UX/UI & Product Designer.</h2>
+                            <p class="ga-description">I define strategies & communications that you will need to transform your business experiences and improve people’s lives. By digging into business problems, I analyse, define and solve them with the help of creative design.</p>
+                            <div class="hero-action">
+                                <button class="ga-btn-primary btn-large outline"><a href="#case">Explore more</a></button>
+                            </div>
+                        </div>
+                        <div class="photo"></div>
+                    </section>
+                </section>
+               
             </section>
         </header>
-        <section class="ga-publishers">
-            <div class="ga-publishers_title">Connecting more than 70.000 of the worlds leading game studios to their players</div>
-            <ul class="ga-publishers_items">
-                <li>
-                    <img src="images/voodoo.png" alt="publishers-logo">
-                    <div class="ga-publisher--feedback">
-                        <div class="ga-publisher--feedback_text">
-                           <p> <span>"</span>I would have a hard time imagining our games without GameAnalytics. They help us track  all of our KPIs in one place, and  to optimize our game flow.</p>
-                        </div>
-                        <div class="ga-publisher--feedback_block">
-                            <div class="avatar voodoo"></div>
-                            <div class="desc">
-                                <h4 class="name">Gabril Bronson</h4>
-                                <p>VP of Games at Tastypill</p>
-                                <p>Publisher of: Crossy road, Shooty skies etc.</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/kwalee.png" alt="publishers-logo">
-                    <div class="ga-publisher--feedback">
-                        <div class="ga-publisher--feedback_text">
-                           <p> <span>"</span>I would have a hard time imagining our games without GameAnalytics. They help us track  all of our KPIs in one place, and  to optimize our game flow.</p>
-                        </div>
-                        <div class="ga-publisher--feedback_block">
-                            <div class="avatar voodoo"></div>
-                            <div class="desc">
-                                <h4 class="name">Gabril Bronson</h4>
-                                <p>VP of Games at Tastypill</p>
-                                <p>Publisher of: Crossy road, Shooty skies etc.</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/tastypill.png" alt="publishers-logo">
-                    <div class="ga-publisher--feedback">
-                        <div class="ga-publisher--feedback_text">
-                           <p> <span>"</span>I would have a hard time imagining our games without GameAnalytics. They help us track  all of our KPIs in one place, and  to optimize our game flow.</p>
-                        </div>
-                        <div class="ga-publisher--feedback_block">
-                            <div class="avatar voodoo"></div>
-                            <div class="desc">
-                                <h4 class="name">Gabril Bronson</h4>
-                                <p>VP of Games at Tastypill</p>
-                                <p>Publisher of: Crossy road, Shooty skies etc.</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/joypac.png" alt="publishers-logo">
-                    <div class="ga-publisher--feedback">
-                        <div class="ga-publisher--feedback_text">
-                           <p> <span>"</span>I would have a hard time imagining our games without GameAnalytics. They help us track  all of our KPIs in one place, and  to optimize our game flow.</p>
-                        </div>
-                        <div class="ga-publisher--feedback_block">
-                            <div class="avatar voodoo"></div>
-                            <div class="desc">
-                                <h4 class="name">Gabril Bronson</h4>
-                                <p>VP of Games at Tastypill</p>
-                                <p>Publisher of: Crossy road, Shooty skies etc.</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/ketchapp.png" alt="publishers-logo">
-                    <div class="ga-publisher--feedback">
-                        <div class="ga-publisher--feedback_text">
-                           <p> <span>"</span>I would have a hard time imagining our games without GameAnalytics. They help us track  all of our KPIs in one place, and  to optimize our game flow.</p>
-                        </div>
-                        <div class="ga-publisher--feedback_block">
-                            <div class="avatar voodoo"></div>
-                            <div class="desc">
-                                <h4 class="name">Gabril Bronson</h4>
-                                <p>VP of Games at Tastypill</p>
-                                <p>Publisher of: Crossy road, Shooty skies etc.</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section class="ga-events ga-center">
-            <div class="ga-event-cards">
-                <div class="ga-event-card top">
-                    <div class="ga-event-card_date">April 1, 2019 at 08:32</div>
-                    <div class="ga-event-card_title">Business event</div>
-                    <div class="ga-event-card_code">{<span>timestamp:</span>08:32, <span>country:</span>Denmark, <span>build:</span>1.4.4, <span>category:</span>buy_cannon, <span>type:</span>pulse_cannon_X1, <span>configurations:</span>{<span>damage:</span>9000, <span>ammo:</span>12, <span>magazine:</span>4, <span>reload_speed:</span>0.6}, u<span>sertype:</span>free_user, <span>device:</span>iPhone11, <span>ios_bundle_id:</span> com.gameanalytics.app}</div>
-                </div>
-                <div class="ga-event-card">
-                    <div class="ga-event-card_date">April 1, 2019 at 08:32</div>
-                    <div class="ga-event-card_title">Business event</div>
-                    <div class="ga-event-card_code">{<span>timestamp:</span>08:32, <span>country:</span>Denmark, <span>build:</span>1.4.4, <span>category:</span>buy_cannon, <span>type:</span>pulse_cannon_X1, <span>configurations:</span>{<span>damage:</span>9000, <span>ammo:</span>12, <span>magazine:</span>4, <span>reload_speed:</span>0.6}, u<span>sertype:</span>free_user, <span>device:</span>iPhone11, <span>ios_bundle_id:</span> com.gameanalytics.app}</div>
-                </div>
-                <div class="ga-event-card bottom">
-                    <div class="ga-event-card_date">April 1, 2019 at 08:32</div>
-                    <div class="ga-event-card_title">Business event</div>
-                    <div class="ga-event-card_code">{<span>timestamp:</span>08:32, <span>country:</span>Denmark, <span>build:</span>1.4.4, <span>category:</span>buy_cannon, <span>type:</span>pulse_cannon_X1, <span>configurations:</span>{<span>damage:</span>9000, <span>ammo:</span>12, <span>magazine:</span>4, <span>reload_speed:</span>0.6}, u<span>sertype:</span>free_user, <span>device:</span>iPhone11, <span>ios_bundle_id:</span> com.gameanalytics.app}</div>
-                </div>
-            </div>
-            <div class="ga-text-section">
-                <h3 class="ga-subtitle">We track more than 4 billion events</h3>
-                <h2 class="ga-title">Across 250K games every single day</h2>
-                <p class="ga-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                <p class="ga-description">Took a galley of type and scrambled it to make a type specimen book. It has survived not only.</p>
-                <button class="ga-btn-primary btn-large">Read more</button>
-            </div>
-        </section>
-        <section class="ga-features">
-            <div class="ga-text-section">
-                <h3 class="ga-subtitle">Micro details, macro overview</h3>
-                <h2 class="ga-title">Deep dive into any aspect of your games</h2>
-                <p class="ga-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                <p class="ga-description">Took a galley of type and scrambled it to make a type specimen book. It has survived not only.</p>
-                <button class="ga-btn-primary btn-large">Preview all features</button>
-            </div>
-            <div class="ga-slider-wrap">
-                <s id="s1"></s> 
-                <s id="s2"></s>
-                <s id="s3"></s>
-                <s id="s4"></s>
-                <div class="ga-slider">
-                    <div class="ga-slide one"></div>
-                    <div class="ga-slide tow"></div>
-                    <div class="ga-slide tree"></div>
-                    <div class="ga-slide four" ></div>
-                </div>
-                <div class="ga-prevNext">
-                    <div><a href="#s4"></a><a href="#s2"></a></div>
-                    <div><a href="#s1"></a><a href="#s3"></a></div>
-                    <div><a href="#s2"></a><a href="#s4"></a></div>
-                    <div><a href="#s3"></a><a href="#s1"></a></div>
-                </div>
-                    <div class="ga-bullets">
-                    <a href="#s1"></a>
-                    <a href="#s2"></a>
-                    <a href="#s3"></a>
-                    <a href="#s4"></a>
-                </div>
-            </div>
-        </section>
-        <section class="ga-blue-gradient">
-            <div class="ga-left-bg-image"></div>
-            <section class="ga-analytics ga-center">
-                <div class="ga-text-block">
-                    <h3 class="ga-subtitle">Much more than Analytics</h3>
-                    <h2 class="ga-title">The only tool you will ever need</h2>
-                </div>
-                <div class="ga-analytics_blocks">
-                    <div class="ga-card">
-                        <h3>Portfolio insights</h3>
-                        <ul>
-                            <li>Get any metric on a game, studio & organisation level</li>
-                            <li>Flexible reporting & custom dashboards </li>
-                            <li>Built for scale, supporting thousands of games and millions of players</li>
-                            <li>Mobile app with easy access to KPIs & custom reporting</li>
-                        </ul>
-                    </div>
-                    <div class="ga-card ga-card-center">
-                        <h3>Analytics <span>new</span></h3>
-                        <ul>
-                            <li>Monitor realtime data cross any number of games</li>
-                            <li>Multi-dimensional and fully flexible data </li>
-                            <li>Out of the box and fully customizable dashboards & KPIs</li>
-                            <li>All the essential features for keeping track of all your games:</li>
-                            <li>Users, Retention, Monetization, Playtime, ad revenue, funnels, and so much more…</li>
-                        </ul>
-                    </div>
-                    <div class="ga-card">
-                        <h3>Game ops <span>new</span></h3>
-                        <ul>
-                            <li>Control & monitor game configs remotely</li>
-                            <li>A/B test new features or user experiences</li>
-                            <li>Generate dynamic content globally or segmented</li>
-                            <li>Optimise ad revenue, IAP and retention</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="ga-engines ga-center ga-items-center">
-                <div class="ga-text-block">
-                    <h3 class="ga-subtitle">More than 20+ SDKs</h3>
-                    <h2 class="ga-title">We support all the major game engines</h2>
-                    <p class="ga-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                </div>
-                <img class="ga-engines-logos" src="images/engines-logos.png" alt="">
-                <div class="ga-engines_actions">
-                    <button class="ga-btn-primary btn-large">View docs</button>
-                    <button class="ga-btn-primary btn-large outline">SDK overview</button>
-                </div>
-            </section>
-        </section>
-        <section class="ga-insights">
-            <div>
-                <div class="ga-insights-img"></div>
-                <div class="ga-insights-desc">
-                    <div class="ga-insights-desc_item">
-                        <img src="images/game.svg" alt="">
-                        <div class="ga-subtitle">GameAnalytics is used by</div>
-                        <div class="ga-title">+100K games</div>
-                        <div class="ga-description">Which we we will tell you the reason for in our Blog, eBooks and Case studies</div>
-                    </div>
-                    <div class="ga-insights-desc_item middle">
-                        <img src="images/users.svg" alt="">
-                        <div class="ga-subtitle">Connected to</div>
-                        <div class="ga-title">+1.2B players</div>
-                        <div class="ga-description">That is the baseline for our Benchmarks and trends studies</div>
-                    </div>
-                    <div class="ga-insights-desc_item">
-                        <img src="images/sessions.svg" alt="">
-                        <div class="ga-subtitle">Facilitating </div>
-                        <div class="ga-title">16B monthly sessions</div>
-                        <div class="ga-description">This allow us to present your with the worlds most accurate game industry insights</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="ga-insights-actions ga-center">
-            <button class="ga-btn-primary btn-large">Visit the insights hub</button>
+        <div class="ga-text-section center ptb100" id="case">
+            <h3 class="ga-subtitle">Selected Projects</h3>
+            <h2 class="ga-title">Get a taste of
+                what I do Best!</h2>
         </div>
+        <section class="ga-text-right ga-center">
+            <div class="ga-case-img gameanalytics-tool"></div>
+            <div class="ga-text-section">
+                <h3 class="ga-subtitle">UX/UI, Dashboard design, development</h3>
+                <h2 class="ga-title">GameAnalytics Dashboard</h2>
+                <p class="ga-description">GameAnalytics is currently the #1 analytics tool for anyone building a mobile game. As a Lead  Product designer (UX/UI), I design the dashboard to help indie developers, games studios, established publishers drive conversions, refine critical flows, and boost retention for their titles by making the right decisions based on data.</p>
+                <p class="ga-description">GameAnalytics is free. To explore my work you can sign up and review A/B Testing, Cohorts and Remote Configs features in the Lab section designed by me.</p>
+                <button class="ga-btn-primary btn-large"><a target="_blank" href="https://go.gameanalytics.com/signup">Go to dashboard</a> </button>
+            </div>
+        </section>
+        <section class="ga-text-left ga-center dots">
+            <div class="ga-text-section">
+                <h3 class="ga-subtitle">Strategies , UX/UI</h3>
+                <h2 class="ga-title">GameAnalytics Mobile App</h2>
+                <p class="ga-description">Native GA App is a simple and always available alternative to GA web tool. It provides easy access to key metrics that are relevant to the individual user.</p>
+                
+                <div class="flex between">
+                    <ul>
+                        <li class="ga-description">UX Reaserch</li>
+                        <li class="ga-description">Wirefmaing</li>
+                        <li class="ga-description">Prototyping</li>
+                    </ul>
+                    <ul>
+                        <li class="ga-description">Visual design</li>
+                        <li class="ga-description">Detailed specification</li>
+                        <li class="ga-description">User Testing</li>
+                    </ul>
+                </div>
+                <!-- <button class="ga-btn-primary btn-large"><a target="_blank" href="https://go.gameanalytics.com/signup">Go to dashboard</a> </button> -->
+            </div>
+            <div class="ga-case-img gameanalytics-mobile"></div>
+        </section>
+        <section class="ga-text-right ga-center">
+            <div class="ga-case-img gameanalytics-website"></div>
+            <div class="ga-text-section">
+                <h3 class="ga-subtitle">UX/UI, development</h3>
+                <h2 class="ga-title">GameAnalytics Website</h2>
+                <p class="ga-description">GameAnalytics organization website redesign offers an excellent opportunity to rethink information architecture, helping to pare down and organize existing content. Redesign involves designing, developing, and structuring a new site from scratch.</p>
+                <p class="ga-description">Together with the Marketing team and 3D designer, I'm working to achieve our goals and launch new website at the end of 2020.</p>
+                <div class="flex between">
+                    <ul>
+                        <li class="ga-description">Website design</li>
+                        <li class="ga-description">Branding</li>
+                        <li class="ga-description">Wirefmaing/Prototyping</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="ga-text-left ga-center dots">
+            <div class="ga-text-section">
+                <h3 class="ga-subtitle">Dashboard design , UX/UI</h3>
+                <h2 class="ga-title">Benchmarks+</h2>
+                <p class="ga-description">Dashboard design for mobile gaming intelligence platform called Benchmarks+. With Benchmarks+  there’s an easy way to learn how the performance of top games is changing. It helps studio heads, publishers, and investors to explore market trends and KPI changes.</p>
+                
+                <button class="ga-btn-primary btn-large outline icon ga-modal-trigger" data-modal="ga-modal-name"><span class="icon-play"></span>Video preview</button>
+                <!-- <button class="ga-btn-primary btn-large"><a target="_blank" href="https://go.gameanalytics.com/signup">Go to dashboard</a> </button> -->
+            </div>
+            <div class="ga-case-img gameanalytics-tool2"></div>
+            <div class="ga-modal" id="ga-modal-name">
+                <div class="ga-modal-sandbox"></div>
+                <div class="ga-modal-box">
+                <div class="ga-close-modal"></div> 
+                  <div class="ga-modal-body">
+                    <iframe class="embed-responsive-item" width="100%" height="700px" src="https://www.youtube.com/embed/7CJ2L8mM5dk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" id="player0"></iframe>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
         <section class="ga-inbox-bg">
             <div class="ga-inbox ga-center">
-                <h3 class="ga-title medium">Game industry insights,<span>delivered to your inbox</span></h3>
                 <div class="ga-inbox-form">
-                    <input type="text" placeholder="Type your email">
-                    <button class="ga-btn-primary dark">Submit</button>
+                    <img src="src/images/Laptop.jpg" alt="laptop">
+                </div>
+                <div>
+                    <h3 class="ga-subtitle">Dashboard design , UX/UI</h3>
+                    <h2 class="ga-title medium">Creating relatable & fun design with high-touch expertise, instinct and innovation..</h2>
+
+                    <div class="flex between ptb40">
+                        <ul class="skills">
+                            <li class="ga-description pb10 bold">BRAND</li>
+                            <li class="ga-description pb10">Brand strategy</li>
+                            <li class="ga-description pb10">Logo</li>
+                            <li class="ga-description pb10">Booth design</li>
+                            <li class="ga-description pb10">E-mail Signature</li>
+                            <li class="ga-description pb10">Business Card</li>
+                        </ul>
+                        <ul class="skills">
+                            <li class="ga-description pb10 bold">DESIGN</li>
+                            <li class="ga-description pb10">UX Reaserch</li>
+                            <li class="ga-description pb10">UX/UI Design</li>
+                            <li class="ga-description pb10">Websites Design</li>
+                            <li class="ga-description pb10">Mobile App Design</li>
+                            <li class="ga-description pb10">Prototyping & Testing</li>
+                            <li class="ga-description pb10">Iconography</li>
+                            <li class="ga-description pb10">Typography</li>
+                            <li class="ga-description pb10">Graphics & illustrations</li>
+                        </ul>
+                        <ul class="skills">
+                            <li class="ga-description pb10 bold">DEVELOPMENT</li>
+                            <li class="ga-description pb10">Frontend</li>
+                            <li class="ga-description pb10">HTML/CSS/JS</li>
+                            <li class="ga-description pb10">Gulp/Webpack</li>
+                            <li class="ga-description pb10">SEO</li>
+                        </ul>
+                    </div>
+                    <h3 class="ga-subtitle pb10">I EXPERTIZE IN</h3>
+                    <ul class="flex between icon-list">
+                        <li><img src="src/images/ic1.svg" alt="icon"></li>
+                        <li><img src="src/images/ic2.svg" alt="icon"></li>
+                        <li><img src="src/images/ic3.svg" alt="icon"></li>
+                        <li><img src="src/images/ic4.svg" alt="icon"></li>
+                        <li><img src="src/images/ic5.svg" alt="icon"></li>
+                        <li><img src="src/images/ic6.svg" alt="icon"></li>
+                        <li><img src="src/images/ic7.svg" alt="icon"></li>
+                        <li><img src="src/images/ic8.svg" alt="icon"></li>
+                        <li><img src="src/images/ic9.svg" alt="icon"></li>
+                        <li><img src="src/images/ic10.svg" alt="icon"></li>
+                        <li><img src="src/images/ic11.svg" alt="icon"></li>
+                
+                    </ul>
                 </div>
             </div>
         </section>
-        <footer class="ga-footer">
+        <footer class="ga-footer" id="footer">
             <div class="ga-footer_top ga-center">
                 <div class="ga-footer_list">
-                    <a class="ga-logo" href=""></a>
-                    <div class="ga-logo-description">We help game makers build more engaging  experiences through a strong understanding  of their core metrics.</div>
-                    <ul class="ga-social-links">
-                        <li><img src="images/facebook.svg" alt="facebook"></li>
-                        <li><img src="images/twitter.svg" alt="twitter"></li>
-                        <li><img src="images/instagram.svg" alt="insta"></li>
-                        <li><img src="images/linkedin.svg" alt="linkedin"></li>
-                        <li>粤ICP备15042009号-8</li>
+                    <h2 class="ga-title medium">Got a project?
+                        Let’s connect</h2>
+                    <h3 class="ga-subtitle pb10"><a href="mailto:mar.shumeyko@gmail.com" target="_blank">Drop me a line -></a> </h3>
+                    <ul class="ga-social-links flex ">
+                        <li><a target="_blank" href="https://www.facebook.com/marwayst/"><img src="src/images/facebook.svg" alt="facebook"></a></li>
+                        <!-- <li><img src="src/images/twitter.svg" alt="twitter"></li> -->
+                        <li><a target="_blank" href="https://www.instagram.com/marina.mashu/"><img src="src/images/instagram.svg" alt="insta"></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/marina-shumeyko-558aa542/"><img src="src/images/linkedin.svg" alt="linkedin"></a></li>
                     </ul>
                 </div>
-                <div class="ga-footer_list">
-                    <h3>Platform</h3>
-                    <ul>
-                        <li>How it works</li>
-                        <li>Core Analytics</li>
-                        <li>LiveOps</li>
-                        <li>Portfolio trends</li>
-                        <li>Public APIs</li>
-                        <li>Data Warehouse</li>
-                    </ul>
-                </div>
-                <div class="ga-footer_list">
-                    <h3>Insights</h3>
-                    <ul>
-                        <li>Insights +</li>
-                        <li>Benchmarks +</li>
-                        <li>Blog</li>
-                        <li>Reports</li>
-                        <li>Videos</li>
-                        <li>Case Studies</li>
-                        <li>eBooks</li>
-                    </ul>
-                </div>
-                <div class="ga-footer_list">
-                    <h3>About</h3>
-                    <ul>
-                        <li>About</li>
-                        <li>Careers</li>
-                        <li>Contacts</li>
-                        <li>News</li>
-                        <li>Events</li>
-                        <li>Terms of use</li>
-                        <li>Privacy Policy</li>
-                        <li>GDPR</li>
-                    </ul>
-                </div>
-                <div class="ga-footer_list">
-                    <h3>Docs</h3>
-                    <ul>
-                        <li>SDK guides</li>
-                        <li>Knowledge base</li>
-                        <li>Integration tutorial</li>
-                        <li>Events types</li>
-                        <li>Common questions</li>
-                        <li>Support</li>
-                    </ul>
-                </div>
+                <div class="ga-footer_bottom">
+                    Copyright 2020 Marina Shumeyko. All rights reserved.
+                </div>        
             </div>
-            <div class="ga-footer_bottom">
-                Copyright 2020 GameAnalytics . All rights reserved.
-            </div>
+            
         </footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="modal.js"></script>
+    <script src="src/js/modal.js"></script>
 </html>

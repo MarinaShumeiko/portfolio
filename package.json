@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-app",
+  "version": "1.0.0",
+  "description": "Marina Shumeyko Portfolio Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaShumeiko/portfolio-app.git"
+  },
+  "author": "Marina Shumeyko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinaShumeiko/portfolio-app/issues"
+  },
+  "homepage": "https://github.com/MarinaShumeiko/portfolio-app#readme"
+}
