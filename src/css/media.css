@@ -230,10 +230,6 @@
          margin-bottom: 24px;
          margin-right: 0;
      }
-     .ga-footer_bottom {
-         background-color: var(--main-bg-color);
-     }
-
      /* Other */
      .ga-left-bg-image {
         top: inherit;
