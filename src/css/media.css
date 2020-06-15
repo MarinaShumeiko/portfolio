@@ -79,7 +79,7 @@
     /* HEADER */
     .ga-hero,
     .ga-text-right,
-    .ga-text-left {flex-direction: column;}
+    .ga-text-left {flex-direction: column; align-items: center;}
     .ga-text-right {flex-direction: column-reverse;}
     .photo {max-width: 90%;}
 
