@@ -116,6 +116,7 @@
         margin-left: 40px;
     }
     .ga-header--desktop {display: none;}
+    .ga-btn-primary.btn-large {font-size: 2em;}
 
     /* HERO */
     .ga-hero { padding-top: 160px;}
