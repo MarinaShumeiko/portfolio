@@ -501,3 +501,31 @@ body {
     width: 500px;
     height: 500px;
 }
+
+.app-link {
+    display: block;
+    width: 180px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.app-link.ios {
+    background: url(../images/appstore.png) no-repeat;
+    background-size: contain;
+}
+.app-link.play {
+    background: url(../images/googleplay.png) no-repeat;
+    background-size: contain;
+}
+
+.app-link.ios:hover {
+    background: url(../images/appstore-h.png) no-repeat;
+    background-size: contain;
+}
+.app-link.play:hover {
+    background: url(../images/googleplay-h.png) no-repeat;
+    background-size: contain;
+}
