@@ -111,6 +111,9 @@
         background-position: 100% 100%;
         padding-bottom: 100px;
     }
+    .ga-header-bg1 {
+        background-position: right bottom;
+    }
     .ga-mobile-menu {
         display: block;
         overflow: hidden;
