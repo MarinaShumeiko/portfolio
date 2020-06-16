@@ -91,10 +91,13 @@
         max-width: 100%;
     }
  .ga-text-right .ga-description,
- .ga-text-left .ga-description {font-size: 1.2em;}
+ .ga-text-left .ga-description,
+ .ga-hero .ga-description {font-size: 32px;}
     .ga-hero .ga-text-block {
         max-width: 100%;
     }
+
+    .ga-hero 
     .ga-case-img.gameanalytics-tool,
     .ga-case-img.gameanalytics-tool2,
     .ga-case-img.gameanalytics-mobile,
