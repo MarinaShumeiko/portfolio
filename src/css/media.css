@@ -88,6 +88,12 @@
         margin: 0;
         padding: 0;
         margin-bottom: 50px;
+        max-width: 100%;
+    }
+ .ga-text-right .ga-description,
+ .ga-text-left .ga-description {font-size: 1.2em;}
+    .ga-hero .ga-text-block {
+        max-width: 100%;
     }
     .ga-case-img.gameanalytics-tool,
     .ga-case-img.gameanalytics-tool2,
