@@ -87,10 +87,10 @@
 	font-weight: bolder;
 }
 .ga-title.medium {
-	font-size: 43px;
+	font-size: 24px;
 	line-height: 1.1;
 	margin-bottom: 24px;
-	color: var(--text-color);
+	color: var(--secondary-color);
 	font-weight: bolder;
 }
 .ga-subtitle {
@@ -101,7 +101,7 @@
 	text-transform: uppercase;
 }
 .ga-description {
-	font-size: 24px;
+	font-size: 16px;
 	line-height: 1.5;
 	margin-bottom: 40px;
 	font-weight: 300;
@@ -383,5 +383,5 @@ li.ga-description {
     flex: 1;
     height: 680px;
 	background: url(../images/web-img.png) no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
